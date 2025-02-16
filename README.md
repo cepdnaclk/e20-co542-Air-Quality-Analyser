@@ -1,7 +1,5 @@
 ___
-# DELETE THIS INSTRUCTIONS AND ADD A SHORT INTRODUCTION ABOUT YOUR PROJECT
+# Air Quality Analyser
 ___
 
-## Please refer the instructions in below URL:
-
-https://projects.ce.pdn.ac.lk/docs/how-to-add-a-project
+Air pollution is a growing concern worldwide and affects human health, ecosystems, and climate. Air quality prediction is an efficient tool for mitigating risks and decision-making. Traditional statistical models often struggle to capture complex, nonlinear relationships in air quality data. This project is going to design a hybrid approach based on the integration of Long Short-Term Memory neural networks with Fuzzy Logic Systems for better air quality forecasting accuracy.
