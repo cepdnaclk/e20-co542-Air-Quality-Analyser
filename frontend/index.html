@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQI Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>AQI Prediction</h1>
+    <form id="aqi-form">
+        <label for="PM25">PM2.5:</label><input type="text" id="PM25" name="PM25"><br>
+        <label for="PM10">PM10:</label><input type="text" id="PM10" name="PM10"><br>
+        <label for="NO2">NO2:</label><input type="text" id="NO2" name="NO2"><br>
+        <label for="NOx">NOx:</label><input type="text" id="NOx" name="NOx"><br>
+        <label for="CO">CO:</label><input type="text" id="CO" name="CO"><br>
+        <label for="SO2">SO2:</label><input type="text" id="SO2" name="SO2"><br>
+        <label for="O3">O3:</label><input type="text" id="O3" name="O3"><br>
+        <label for="temp">Temperature:</label><input type="text" id="temp" name="temp"><br>
+        <label for="max_temp">Max Temperature:</label><input type="text" id="max_temp" name="max_temp"><br>
+        <label for="min_temp">Min Temperature:</label><input type="text" id="min_temp" name="min_temp"><br>
+        <label for="humid">Humidity:</label><input type="text" id="humid" name="humid"><br>
+        <label for="visible">Visibility:</label><input type="text" id="visible" name="visible"><br>
+        <label for="wind">Wind Speed:</label><input type="text" id="wind" name="wind"><br>
+        <button type="submit">Predict AQI</button>
+    </form>
+
+    <h2 id="result">Predicted AQI: </h2>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
